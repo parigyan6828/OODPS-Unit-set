@@ -27,3 +27,16 @@ public:
         cout << "\nGross Salary: " << gross << endl;
     }
 };
+int main() {
+    Employee e1, e2;
+
+    e1.read();
+    e1.calculate();
+    e1.display();
+
+    e2.read();
+    e2.calculate();
+    e2.display();
+
+    return 0;
+}
